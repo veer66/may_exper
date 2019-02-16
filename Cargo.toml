@@ -1,0 +1,16 @@
+[package]
+name = "coroutine"
+version = "0.1.0"
+authors = ["Vee Satayamas"]
+edition = "2018"
+
+[dependencies]
+may = "0.3.5"
+
+[[bin]]
+name = "os_thread"
+path = "src/os_thread.rs"
+
+[[bin]]
+name = "may_go"
+path = "src/may_go.rs"
